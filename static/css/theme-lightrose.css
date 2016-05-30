@@ -81,7 +81,7 @@ hr {
     margin-bottom: 20px;
     padding: 30px 24px;
     background: #fff;
-    background: lightblue;
+    background: #FFF8DC;
     border-radius: 0 50px 0 0;
 }
 @media screen and (max-width: 767px) {
@@ -110,7 +110,7 @@ hr {
 
 footer {
     background: #fff;
-    background: lightblue;
+    background: #FFF8DC;
 }
 
 footer p {
@@ -169,7 +169,7 @@ footer p {
     .navbar-default {
         border: none;
         background: #fff;
-        background: lightblue;
+        background: #FFF8DC;
     }
 
     .nav>li>a {
