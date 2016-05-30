@@ -79,7 +79,7 @@ hr {
 
 .box {
     margin-bottom: 20px;
-    padding: 30px 15px;
+    padding: 30px 24px;
     background: #fff;
     background: lightblue;
 }
@@ -104,7 +104,7 @@ hr {
 
 footer {
     background: #fff;
-    background: rgba(255,255,255,0.9);
+    background: lightblue;
 }
 
 footer p {
@@ -163,7 +163,7 @@ footer p {
     .navbar-default {
         border: none;
         background: #fff;
-        background: rgba(255,255,255,0.9);
+        background: lightblue;
     }
 
     .nav>li>a {
@@ -271,4 +271,17 @@ ul {
 .hide-on-small {
         display: none;        
     }
+}
+
+@media screen and (min-width: 767px) {
+.hide-on-large {
+        display: none;        
+    }
+}
+#progress{
+    /*width:0%;*/
+    position:fixed;
+    top:0px;
+    background:#f26a3d;
+    height: 5px;
 }
