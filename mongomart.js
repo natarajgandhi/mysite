@@ -81,6 +81,13 @@ MongoClient.connect('mongodb://natarajgandhi:voila123@ds017582.mlab.com:17582/sh
         res.render('homelightrose');
     });
 
+    router.get("/member/benefits", function (req, res) {
+        "use strict";
+        console.log("Successfully in home page");
+        res.render('MemberBenefits');
+    });
+    
+
     router.get("/t2", function (req, res) {
         "use strict";
         console.log("Successfully in home page");
