@@ -87,6 +87,19 @@ MongoClient.connect('mongodb://natarajgandhi:voila123@ds017582.mlab.com:17582/sh
         res.render('MemberBenefits');
     });
 
+    router.get("/events", function (req, res) {
+        "use strict";
+        console.log("Successfully in home page");
+        res.render('events');
+    });
+
+    
+    router.get("/announcements", function (req, res) {
+        "use strict";
+        console.log("Successfully in home page");
+        res.render('Announcements');
+    });
+
     router.get("/photo-gallery", function (req, res) {
         "use strict";
         console.log("Successfully in home page");
