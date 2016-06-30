@@ -105,10 +105,16 @@ MongoClient.connect('mongodb://natarajgandhi:voila123@ds017582.mlab.com:17582/sh
         res.render('contact-us');
     });
 
-    router.get("/home-logocolors-background", function (req, res) {
+    router.get("/home-background-flag", function (req, res) {
         "use strict";
         console.log("Successfully in home page");
-        res.render('home-logocolors');
+        res.render('home-logo-bg');
+    });
+
+    router.get("/home-background-logocolors-", function (req, res) {
+        "use strict";
+        console.log("Successfully in home page");
+        res.render('home-logo-colors');
     });
 
     router.get("/about-us", function (req, res) {
